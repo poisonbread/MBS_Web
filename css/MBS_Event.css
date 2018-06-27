@@ -1,0 +1,162 @@
+body {
+  font: 1rem/1.618rem "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+ul li{
+  list-style: none;
+}
+
+.title{
+    color: #000;
+    padding-left: 20px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7cdbfd;
+    width: 100%;
+    height: 75px;
+}
+
+.menu-list{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  clear: both;
+  list-style-type: none;
+  width: 640px;
+  height: 30px;
+  margin: 20px 0 20px 0;
+  padding: 0;
+  border-bottom: 1px solid #007CC3;
+  border-radius: 3px 3px 0 0
+}
+
+.menu-item {
+  width: 18%;
+  text-align: center;
+  position: relative;
+}
+.menu-item-link {
+  margin: 0;
+  padding: 10px 0 6px;
+  color: #000;
+  line-height: 1;
+  text-decoration: none;
+}
+.dropmenu-list {
+  visibility: hidden;
+  top: 30px; 
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.drop-item{
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  transition: .2s;
+  border-top:1px solid #007CC3;
+}
+.contents{
+  background: #E8F6FF;
+  font-size: 12px;
+  color: #000;
+  display: block;
+  text-decoration: none;
+}
+
+.menu-list li:hover > .dropmenu-list{
+  background: #fff;
+  color: #007CC3;
+  visibility: visible;
+}
+
+.menu-list > li:hover > a{
+  border-radius: 3px 3px 0 0;
+}
+
+.menu-list li:hover ul li{
+  overflow: visible;
+
+}
+
+.menu-list li:hover ul li:first-child{
+  border-top: 0;
+}
+
+.menu-list li:hover ul li:last-child{
+  border-bottom: 0;
+}
+
+.menu-list li:hover ul li:last-child a{
+  border-radius: 0 0 3px 3px;
+}
+
+  .heading{
+    padding-left: 20px;
+  }
+
+  .heading h3{
+    padding-left:20px; 
+  }
+
+  .heading p{
+    padding-left: 40px;
+  }
+
+  .mail{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #007CC3;
+    color: white;
+    text-align: center;
+    width: 300px;
+  }
+
+  .footer-menu{
+    background-color:gray;
+    height: 100%;
+}
+
+.footer-menu a{
+    color: #000;
+    text-decoration: none;
+}
+
+.sitemap{
+  display: flex;
+  justify-content: space-around;
+}
+
+.activity{
+  text-align: center;
+  justify-content: center;
+}
+
+.activity ul{
+  justify-content: center;
+  text-align: center;
+  padding-right: 40px;
+}
+
+.underline{
+  border-bottom: 0.5px solid #000;
+}
+
+.Copyright{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
